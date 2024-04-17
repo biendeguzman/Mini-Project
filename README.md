@@ -12,10 +12,10 @@ To run IntelliJ IDEA, find it in the Windows Start menu or use the desktop short
 2. Name then select Java language
 3. Build system Maven then create.
 _____________________________________________
-## To clone this project
+# To clone this project
 You need to install [https://git-scm.com/downloads](https://git-scm.com/download/win) for windows
 then follow the installation process after go to start menu and search Gitbash.
-# Steps to clone this project
+## Steps to clone this project
 1. Go to https://github.com/ then select Mini-project.
 2. Then go to Code, copy the HTTPS link provided.
 3. Then type this command to your Git Bash (git clone link).
