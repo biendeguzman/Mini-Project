@@ -8,9 +8,11 @@ public class Client {
         try {
             //Client Connection to Server
             ClientConnect result = ClientConnection.getClientConnect();
-            //UserInput
-            ClientInput.UserInput(result.userInput(), result.soc());
-            ClientResult.clientResult(result.soc());
+            while (true){
+                //UserInput
+                ClientInput.UserInput(result.userInput(), result.soc());
+                ClientResult.clientResult(result.soc());
+            }
         }
         catch (Exception e)
         {

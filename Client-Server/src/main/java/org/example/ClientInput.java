@@ -8,9 +8,12 @@ public class ClientInput {
         System.out.print("Enter a number for Poem Line: ");
         int lineNumber = Integer.parseInt(userInput.readLine());
         PrintWriter out = new PrintWriter(soc.getOutputStream(), true);
-        if (lineNumber == 0 || lineNumber > 24){
-            throw new IllegalArgumentException(lineNumber +" Invalid number");
-        }
-        else out.println(lineNumber);
+        if (lineNumber == 555) {
+            System.out.println("Poem line terminated");
+            soc.close();
+        } else if (lineNumber == 0 || lineNumber > 24) {
+            throw new IllegalArgumentException(lineNumber + " Invalid number");
+        } else out.println(lineNumber);
+
     }
 }
