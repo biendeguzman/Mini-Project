@@ -3,7 +3,7 @@ import java.net.Socket;
 public class Server {
     public static void main (String[]args) {
         //File path
-        String filePath = "C:/Users/ticed/IdeaProjects/MiniProject/Poem.txt";
+        String filePath = "C:/Users/ticed/project/Mini-Project/Mini-Project/Client-Server/Poem.txt";
 
         try {
             //Connection to Client
