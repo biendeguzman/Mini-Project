@@ -21,9 +21,9 @@ then follow the installation process after go to start menu and search Gitbash.
 3. Then type this command to your Git Bash (git clone link).
 _____________________________________________
 ## Instruction to Run the program
-Open your IntelliJ IDEA applicatiion then
-go to file and open project Mini-Project after opening,
-First Run the Server program and then Run the client
-The Client will enter a number 1-24 then the server will provide specific line that the client enter.
+1. Open your IntelliJ IDEA applicatiion then
+2. Go to file and open project Mini-Project after opening,
+3. First Run the Server program and then Run the client
+4. The Client will enter a number 1-24 then the server will provide specific line that the client enter.
 
 
