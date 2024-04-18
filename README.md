@@ -19,4 +19,11 @@ then follow the installation process after go to start menu and search Gitbash.
 1. Go to https://github.com/ then select Mini-project.
 2. Then go to Code, copy the HTTPS link provided.
 3. Then type this command to your Git Bash (git clone link).
+_____________________________________________
+## Instruction to Run the program
+Open your IntelliJ IDEA applicatiion then
+go to file and open project Mini-Project after opening,
+First Run the Server program and then Run the client
+The Client will enter a number 1-24 then the server will provide specific line that the client enter.
+
 
