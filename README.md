@@ -25,5 +25,6 @@ _____________________________________________
 2. Go to file and open project Mini-Project after opening,
 3. First Run the Server program and then Run the client
 4. The Client will enter a number 1-24 then the server will provide specific line that the client enter.
+5. To terminate the program Client should type 555.
 
 
