@@ -9,8 +9,10 @@ public class Server {
             //Connection to Client
             Socket soc = ServerConnect.getSocket();
             //Poem Line Result
-            Result result = ServerPoem.getResult(soc, filePath);
-            ServerResult.extracted(soc, result);
+            while (true) {
+                Result result = ServerPoem.getResult(soc, filePath);
+                ServerResult.extracted(soc, result);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
