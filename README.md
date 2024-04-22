@@ -2,6 +2,10 @@
 _____________________________________________
 A connection Between Server and Client. The Client will give specific number from a poem line then the server will provide the given line from a poem.
 _____________________________________________
+## Requirements
+Java Development Kit(JDK) or higher version.
+Intellij IDEA Community Edition 2023 or any JAVA IDE.
+_____________________________________________
 # To clone this project
 You need to install [https://git-scm.com/downloads](https://git-scm.com/download/win) for windows
 then follow the installation process after go to start menu and search Gitbash.
